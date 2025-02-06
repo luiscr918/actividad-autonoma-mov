@@ -3,3 +3,4 @@ export const  SECONDARY_COLOR='white';
 export const  THIRD_COLOR='#609FEB';
 export const  INPUT_COLOR='#A5E7EA';
 export const  NORMAL_TEXT_COLOR='black';
+export const  BUTTON_COLOR='#E4ACE8';

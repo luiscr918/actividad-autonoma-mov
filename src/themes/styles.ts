@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { INPUT_COLOR, NORMAL_TEXT_COLOR, SECONDARY_COLOR, THIRD_COLOR } from "./colorsByMe/const";
+import { BUTTON_COLOR, INPUT_COLOR, NORMAL_TEXT_COLOR, SECONDARY_COLOR, THIRD_COLOR } from "./colorsByMe/const";
 
 export const styles=StyleSheet.create({
     title:{
@@ -36,10 +36,29 @@ export const styles=StyleSheet.create({
         backgroundColor: INPUT_COLOR,
         color:NORMAL_TEXT_COLOR,
     },
-    bodyHome:{
-
+    button:{
+        backgroundColor:BUTTON_COLOR,
+        borderRadius:15,
+        alignItems:'center',
+        marginTop:10,
+        padding:10,
+        alignSelf:'center',
+        width:'50%',
     },
-    bodyDiv:{
-        
+    buttonText:{
+        fontSize:20,
+        color:SECONDARY_COLOR
+    },
+    textResultado:{
+        fontSize:20,
+        marginTop:15,
+        textAlign:'center',
+        color:SECONDARY_COLOR
+    },
+    resutlado:{
+        fontWeight:'bold',
+        fontSize:20,
+        color:SECONDARY_COLOR
+
     }
 });

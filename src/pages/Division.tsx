@@ -58,7 +58,7 @@ export const Division = () => {
         />
       </View>
       <ButtonComponent title='Dividir' handleDivision={handleDivision} />
-      <Text>El resultado de su division es: {handleDivision()}</Text>
+      <Text style={styles.textResultado}>El resultado de su division es: <Text style={styles.resutlado}>{handleDivision()}</Text> </Text>
       </BodyComponent>
     </SafeAreaView>
   )
