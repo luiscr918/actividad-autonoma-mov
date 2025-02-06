@@ -4,7 +4,7 @@ import { styles } from '../themes/styles';
 
 interface Props{
         title:string;
-        handleDivision:()=>number;
+        handleDivision:()=>void;
 }
 
 export const ButtonComponent = ({title,handleDivision}:Props) => {

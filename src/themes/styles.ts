@@ -48,17 +48,5 @@ export const styles=StyleSheet.create({
     buttonText:{
         fontSize:20,
         color:SECONDARY_COLOR
-    },
-    textResultado:{
-        fontSize:20,
-        marginTop:15,
-        textAlign:'center',
-        color:SECONDARY_COLOR
-    },
-    resutlado:{
-        fontWeight:'bold',
-        fontSize:20,
-        color:SECONDARY_COLOR
-
     }
 });
