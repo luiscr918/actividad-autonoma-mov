@@ -35,6 +35,8 @@ export const styles=StyleSheet.create({
         margin:15,
         backgroundColor: INPUT_COLOR,
         color:NORMAL_TEXT_COLOR,
+        padding:10,
+        width:'70%'
     },
     button:{
         backgroundColor:BUTTON_COLOR,
@@ -59,6 +61,8 @@ export const styles=StyleSheet.create({
         fontWeight:'bold',
         fontSize:20,
         color:SECONDARY_COLOR
-
+    },
+    containerTextInput:{
+        alignItems:'center'
     }
 });

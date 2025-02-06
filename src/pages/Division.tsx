@@ -43,7 +43,7 @@ export const Division = () => {
         height:height*0.15
       }}>Calculadora De División</Text>
       <BodyComponent pantalla='screenDiv'>
-      <View>
+      <View style={styles.containerTextInput}>
         <InputComponent
           placehorderText='Ingrese el primer número'
           keyboardType='decimal-pad'
